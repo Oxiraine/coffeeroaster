@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/4332434e12.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar"> 
+    <img src="home_img/logo-desktop.svg" class="nav-logo" alt="logo">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    <div class="nav-items">
+      <ul>
+        <li><a href="index.html" class="home">Home</a></li>
+        <li><a href="about.html" class="about">About us</a></li>
+        <li><a href="plan.html" class="plan-a">Create your plan</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="plan-hero-banner">
+    <div class="plan-hero-text-area">
+      <h1 class="plan-hero-header">Create a plan</h1>
+      <p class="plan-hero-desc">Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around the globe delivered fresh to your door..</p>
+    </div>
+  </section>
+  <section class="step-plan">
+    <div class="step-plan-container">
+      <span class="plan-ring1"></span>
+      <div class="plan-line1"></div>
+      <span class="plan-ring2"></span>
+      <div class="plan-line2"></div>
+      <span class="plan-ring3"></span>
+
+      <div class="steps-cards-row">
+        <div class="step1">
+          <span class="plan-step01">01</span>
+          <h2 class="plan-step1-header">Pick your coffee</h2>
+          <p class="plan-step1-desc">Select from our evolving range of artisan coffees. Our beans are ethically sourced
+            and
+            we
+            pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+        </div>
+        <div class="plan-step2">
+          <span class="plan-step02">02</span>
+          <h2 class="plan-step2-header">Choose the frequency</h2>
+          <p class="plan-step2-desc">Customize your order frequency, quantity, even your roast style and grind type.
+            Pause,
+            skip
+            or cancel your subscription with no commitment through our online portal.</p>
+        </div>
+        <div class="plan-step3">
+          <span class="plan-step03">03</span>
+          <h2 class="plan-step3-header">Recieve and enjoy!</h2>
+          <p class="plan-step3-desc">We ship your package within 48 hours, freshly roasted. Sit back and enjoy
+            award-winning
+            world-class coffees curated to provide a distinct tasting experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="plan-content">
+    <div class="content-row">
+      <div class="content-left">
+        <div class="content-preference">
+          <span class="active-green">01</span>
+          <button class="top-text">Preferences</button>
+          <div class="content-line"></div>
+        </div>
+        <div class="content-bean">
+          <span class="bean02">02</span>
+          <span class="bean-name">Bean Type</span>
+          <div class="content-line"></div>
+        </div>
+        <div class="content-quantity">
+          <span class="qty03">03</span>
+          <span class="qty-name">Quantity</span>
+          <div class="content-line"></div>
+        </div>
+        <div class="content-grind">
+          <span class="grind04">04</span>
+          <span class="grind-name">Grind Option</span>
+          <div class="content-line"></div>
+        </div>
+        <div class="content-deliveries">
+          <span class="dlry05">05</span>
+          <span class="dlry-name">Delieveries</span>
+        </div>
+      </div>
+      <div class="content-right">
+        <div class="preference-container">
+          <h2 class="preference-plan-header">How do you drink your coffee?<i class="fa fa-chevron-up pref"
+              id="pref1"></i><i class="fa fa-chevron-down pref" id="pref2"></i></h2>
+          <div class="preference-cards-row">
+            <div class="preference1" id="pref-card1">
+              <h3 class="plan-card1-header">Capsule</h3>
+              <p class="plan-card1-desc">Compatible with Nespresso systems and similar brewers
+              </p>
+            </div>
+            <div class="preference2" id="pref-card2">
+              <h3 class="plan-card2-header">Filter</h3>
+              <p class="plan-card2-desc">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+            </div>
+            <div class="preference3" id="pref-card3">
+              <h3 class="plan-card3-header">Espresso</h3>
+              <p class="plan-card3-desc">Dense and finely ground beans for an intense, flavorful experience</p>
+            </div>
+          </div>
+        </div>
+        <div class="bean-container">
+          <h2 class="bean-plan-header">What type of coffee?<i class="fa fa-chevron-down bean" id="bean2"></i><i
+              class="fa fa-chevron-up bean" id="bean1"></i></h2>
+          <div class="bean-cards-row">
+            <div class="bean-card1" id="bean-card1">
+              <h3 class="bean-card1-header">Single Origin</h3>
+              <p class="bean-card1-desc">Distinct, high quality coffee from a specific family-owned farm
+              </p>
+            </div>
+            <div class="bean-card2" id="bean-card2">
+              <h3 class="bean-card2-header">Decaf</h3>
+              <p class="bean-card2-desc">Just like regular coffee, except the caffeine has been removed</p>
+            </div>
+            <div class="bean-card3" id="bean-card3">
+              <h3 class="bean-card3-header">Blended</h3>
+              <p class="bean-card3-desc">Combination of two or three dark roasted beans of organic coffees</p>
+            </div>
+          </div>
+        </div>
+        <div class="quantity-container">
+          <h2 class="quantity-plan-header">How much would you like?<i class="fa fa-chevron-down qty" id="qty2"></i><i
+              class="fa fa-chevron-up qty" id="qty1"></i></h2>
+          <div class="quantity-cards-row">
+            <div class="quantity-card1" id="qty-card1">
+              <h3 class="quantity-card1-header">250g</h3>
+              <p class="quantity-card1-desc">Perfect for the solo drinker.Yields about 12 delicious cups.
+              </p>
+            </div>
+            <div class="quantity-card2" id="qty-card2">
+              <h3 class="quantity-card2-header">500g</h3>
+              <p class="quantity-card2-desc">Perfect option for a couple. Yields about 40 delectable cups.</p>
+            </div>
+            <div class="quantity-card3" id="qty-card3">
+              <h3 class="quantity-card3-header">1000g</h3>
+              <p class="quantity-card3-desc">Perfect for offices and events. Yields about 90 delightful cups.</p>
+            </div>
+          </div>
+        </div>
+        <div class="grind-container">
+          <h2 class="grind-plan-header">Want us to grind them?<i class="fa fa-chevron-down grind" id="grind2"></i><i
+              class="fa fa-chevron-up grind" id="grind1"></i></h2>
+          <div class="grind-cards-row">
+            <div class="grind-card1" id="grind-card1">
+              <h3 class="grind-card1-header">Wholebean</h3>
+              <p class="grind-card1-desc">Best choice if you cherish the full sensory experience
+              </p>
+            </div>
+            <div class="grind-card2" id="grind-card2">
+              <h3 class="grind-card2-header">Filter</h3>
+              <p class="grind-card2-desc">For drip or pour-over coffee methods such as V60 or Aeropress</p>
+            </div>
+            <div class="grind-card3" id="grind-card3">
+              <h3 class="grind-card3-header">Cafetiere</h3>
+              <p class="grind-card3-desc"> Course ground beans specially suited for french press coffee</p>
+            </div>
+          </div>
+        </div>
+        <div class="deliveries-container">
+          <h2 class="deliveries-plan-header">How often should we deliver?<i class="fa fa-chevron-down dlvy"
+              id="dlvy2"></i><i class="fa fa-chevron-up dlvy" id="dlvy1"></i></h2>
+          <div class="deliveries-cards-row">
+            <div class="deliveries-card1" id="dlry-card1">
+              <h3 class="deliveries-card1-header">Every week</h3>
+              <p class="deliveries-card1-desc">$7.20 per shipment. Includes free first-class shipping.
+              </p>
+            </div>
+            <div class="deliveries-card2" id="dlry-card2">
+              <h3 class="deliveries-card2-header">Every 2 weeks</h3>
+              <p class="deliveries-card2-desc">$9.60 per shipment. Includes free priority shipping.</p>
+            </div>
+            <div class="deliveries-card3" id="dlry-card3">
+              <h3 class="deliveries-card3-header">Every month</h3>
+              <p class="deliveries-card3-desc">$12.00 per shipment. Includes free priority shipping.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="order-summary">
+    <div class="order-container">
+      <h3 class="order-header">ORDER SUMMARY</h3>
+      <p class="order-desc" id="order-desc">“I drink my coffee using <span class="green  checkout-color" id="green">Espresso</span>,
+        with a <span class="green1" id="green-bean">_____</span> type of bean.<span class="green1"
+          id="green-qty">_____,</span><span class="green1" id="green-grind">_____</span> sent to me <span class="green1"
+          id="green-dlvry">_____</span>.”</p>
+    </div>
+    <button class="grey-plan-btn" id="plan-submit">Create your plan!</button>
+  </section>
+   <!--Modal-->
+<div class="modal-container" id="modal-container">
+  <div class="modal" id="modal">
+    <div class="modal-top">
+      <h2 class="modal-header">
+        Order Summary
+      </h2>
+    </div>
+    <div class="modal-bottom">
+      <p class="checkout-desc"></p>
+      <p class="terms">Is this correct? You can proceed to checkout or go back to plan selection if something is
+        off.
+        Subscription discount codes can also be redeemed at the checkout.</p>
+      <span class="checkout-amt">$14.00/mo
+        <button type="submit" class="checkout-desktop">Checkout</button>
+      </span>
+      <button type="submit" class="checkout-mobile">Checkout - $14.00 / mo</button>
+    </div>
+  </div>
+</div>
+<footer class="container">
+  <div class="footer-navbar">
+    <div class="container2">
+      <img src="home_img/logo-desktop.svg" class="footer-nav-logo" alt="logo">
+    </div>
+    <ul>
+      <li><a href="index.html" class="home">Home</a></li>
+      <li><a href="about.html" class="about">About us</a></li>
+      <li><a href="plan.html" class="plan-a">Create your plan</a></li>
+    </ul>
+    <i class="fa fa-facebook-square"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+  </div>
+</footer>
+  <script src="app.js"></script>
+</body>
+</html>
