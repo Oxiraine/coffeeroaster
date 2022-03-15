@@ -82,7 +82,7 @@ function prefToggleUp(){
   prefCardRows.style.display = "flex";
   prefUp.style.display = "inline";
   prefDown.style.display = "none";
-  prefContainer.style.height = "auto";
+  prefContainer.style.height = "inherit";
   beanContainer.classList.add('bean-container-addon');
  }
 }

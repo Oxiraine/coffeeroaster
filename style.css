@@ -4,6 +4,8 @@
   padding:0;
 }
 
+
+
 .nav-logo{
   width: 236px;
   height: 26px;
@@ -702,7 +704,6 @@ footer.container-blur{
 }
 .footer-navbar{
   display:flex;
-  width:622px;
   height:26px;
   position:absolute;
   top:47px;
@@ -811,7 +812,7 @@ footer.container-blur{
     top:350px;
     width: 327px;
     height: 32px;
-    right:5px;
+    right:3px;
     display:none;
     font-family: 'Fraunces', serif;
     font-style: normal;
@@ -828,7 +829,7 @@ footer.container-blur{
     top:234px;
     width: 327px;
     height: 32px;
-    right:-5px;
+    right:3px;
     display:none;
     font-family: 'Fraunces', serif;
     font-style: normal;
@@ -911,35 +912,42 @@ footer.container-blur{
       text-align: center;
       color: #FEFCF7;
     }
+
+    .products{
+      width:372px;
+      margin:40px auto;
+    }
+
+
     .products-header{
-      width:286px;
+      width:372px;
       height:72px;
-      margin-left:44px;
+      margin-left:0px;
       margin-top:120px;
       font-style: normal;
       font-family: 'Fraunces', serif;
       font-weight: 900;
       font-size: 40px;
       line-height: 72px;
-      text-align: center;
       color: #83888F;
       mix-blend-mode: normal;
       opacity: 0.2;
     }
 
-    .products.row{
+    .row{
       display:flex;
-      width:375px;
+      width:372px;
       height:1321px;
       flex-direction: column;
     }
+
     .gran-espresso img{
       position:absolute;
-      left:87px;
+      left:61px;
       margin-top:13px;
     }
     .espresso{
-      margin-left:61px;
+      margin-left:58px;
       width:255px;
       height:32px;
     }
@@ -952,12 +960,12 @@ footer.container-blur{
 
     .planalto img{
       position:absolute;
-      left:87px;
+      left:58px;
       margin-top:382px;
     }
     .planalto-text{
       position:absolute;
-      left:61px;
+      left:60px;
       margin-top:580px;
     }
 
@@ -971,7 +979,7 @@ footer.container-blur{
 
     .picollo img{
       position:absolute;
-      left:87px;
+      left:58px;
       margin-top:724px;
     }
     .picollo-text{
@@ -990,7 +998,7 @@ footer.container-blur{
 
     .danche img{
       position:absolute;
-      left:87px;
+      left:58px;
       margin-top:1066px;
     }
     .danche-text{
@@ -1011,7 +1019,11 @@ footer.container-blur{
       width:327px;
       height:1499px;
       margin-left:24px;
-      margin-top:1038px;
+      margin-top:1138px;
+    }
+
+    .services-cards{
+      width:327px;
     }
 
     .services-box{
@@ -1410,7 +1422,6 @@ span.step01{
     }
 
     .footer-navbar{
-      width:622px;
       height:26px;
       position:absolute;
       top:47px;
@@ -1482,9 +1493,9 @@ span.step01{
   left:199px;
   top:268px;
 }
-
-
 }
+
+
 
 /* About Page*/
 
@@ -1524,6 +1535,7 @@ span.step01{
   }
 
   .commitment-box{
+    width:1150px;
     margin-top:168px;
     margin-left:84px;
   }
@@ -1742,7 +1754,6 @@ span.step01{
   line-height: 26px;
   color: #333D4B;
 }
-
 footer.container-about{
   width: 1280px;
   height: 120px;
@@ -1826,6 +1837,7 @@ footer.container-blur{
 /*About Page Mobile Rules*/
 
 @media (max-width:375px){
+ 
   .about-hero-banner{
     width: 327px;
     height: 400px;
@@ -1839,10 +1851,12 @@ footer.container-blur{
     width: 279px;
     height: 202px;
     position: relative;
+    margin-left:0;
     }
   .about-hero-header{ 
     width:279px;
     height:28px;
+    margin-left:85px;
     position: absolute;
     top:111px;
     left:-60px;
@@ -1852,12 +1866,14 @@ footer.container-blur{
     font-weight: 900;
     font-size: 28px;
     line-height: 28px;
+    text-align: center;
     color: #FEFCF7;
     }
     .about-hero-desc{
       width:279px;
       height:150px;
       position: absolute;
+      margin-left:85px;
       top:163px;
       left:-60px;
       font-family: 'Barlow', sans-serif;
@@ -1870,6 +1886,7 @@ footer.container-blur{
     }
 
     .commitment-box{
+      width:327px;
       position:absolute;
       margin-top:120px;
       left:-60px;
@@ -1938,8 +1955,9 @@ footer.container-blur{
     }
   
     .quality-text{
-      margin-left:24px;
-      width:540px;
+      margin-left:0px;
+      padding-left:24px;
+      width:327px;
       height:210px;
     }
     .quality-header{
@@ -1985,13 +2003,14 @@ footer.container-blur{
     height:1044px;
     top:2247px;
     position:absolute;
+    margin-left:24px;
   }
   
   .section-header{
     width:327px;
     height:32px;
     margin-top:120px;
-    margin-left:-110px;
+    margin-left:0px;
     font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 900;
@@ -2002,7 +2021,7 @@ footer.container-blur{
   }
   
   .headquaters-row{
-    width:1045px;
+    width:327px;
     height:262px;
     margin-top:72px;
     display:flex;
@@ -2011,14 +2030,14 @@ footer.container-blur{
   .uk img{
     width:40px;
     height:49px;
-    margin-left:31px;
+    margin-left:143px;
   }
   
   .uk-header{
     margin-top:46px;
     width:327px;
     height:36px;
-    margin-left:-110px;
+    margin-left:0px;
     font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 900;
@@ -2030,7 +2049,7 @@ footer.container-blur{
   
   .uk-desc{
     margin-top:24px;
-    margin-left:-950px;
+    margin-left:0px;
     height:107px;
     font-family: 'Barlow', sans-serif;
     font-style: normal;
@@ -2044,13 +2063,13 @@ footer.container-blur{
   .canada img{
     width:40px;
     height:49px;
-    margin-left:31px;
+    margin-left:142px;
     margin-top:80px;
   }
   
   .canada-header{
     margin-top:46px;
-    margin-left:-80px;
+    margin-left:24px;
     width:272px;
     height:36px;
     font-family: 'Fraunces', serif;
@@ -2064,7 +2083,7 @@ footer.container-blur{
   
   .canada-desc{
     margin-top:24px;
-    margin-left:-950px;
+    margin-left:0px;
     height:107px;
     font-family: 'Barlow', sans-serif;
     font-style: normal;
@@ -2078,13 +2097,13 @@ footer.container-blur{
   .australia img{
     width:40px;
     height:49px;
-    margin-left:31px;
+    margin-left:142px;
     margin-top:80px;
   }
   
   .australia-header{
     margin-top:46px;
-    margin-left:-110px;
+    margin-left:-3px;
     width:327px;
     height:36px;
     font-family: 'Fraunces', serif;
@@ -2098,7 +2117,7 @@ footer.container-blur{
   
   .australia-desc{
     margin-top:24px;
-    margin-left:-950px;
+    margin-left:0px;
     height:107px;
     font-family: 'Barlow', sans-serif;
     font-style: normal;
@@ -2110,7 +2129,7 @@ footer.container-blur{
   }
 
 
-  footer.container-about{
+  footer.container-about{ 
     position:relative;
     top:2980px;
     margin:auto;
@@ -2126,8 +2145,8 @@ footer.container-blur{
     margin-top: 24px;
   }
   
-  .footer-navbar{
-    width:622px;
+  .container-about.footer-navbar{
+    width:327px;
     height:26px;
     position:absolute;
     top:47px;
@@ -2161,7 +2180,7 @@ footer.container-blur{
   top:-29px;
   }
   
-  .footer-navbar .about{
+  .footer-navbar.about{
   position:absolute;
   top:10px;
   left:132px;
@@ -3218,7 +3237,7 @@ span.dlry-name-open:hover{
 
 
 .grind-container{
-  margin-top:88px;
+  margin-top:0px;
   width: 730px;
   height: 10px;
 }
@@ -3416,10 +3435,17 @@ span.dlry-name-open:hover{
   height: 10px;
 }
 
+.deliveries-container-addon{
+  width:328px;
+  height:10px;
+  margin-top:0px;
+}
+
 .deliveries-cards-row{
   width: 730px;
   height: 250px;
-  margin-top:56px;display:none;
+  margin-top:56px;
+  display:none;
   flex-direction: row;
 }
 
@@ -3633,10 +3659,8 @@ span.green1{
 }
 
 .modal-header{
-  padding-top:48px;
   margin-left:56px;
-  width:336px;
-  height:48px;
+  padding-top: 32px;
   font-family: 'Fraunces', serif;
   font-style: normal;
   font-weight: 900;
@@ -3714,8 +3738,9 @@ opacity: 0.8;
   cursor:pointer;
   background-color:#66D2CF;
 }
+
 /* Plan page Mobile Rules*/
-@media (max-width:375px){
+@media (max-width:375px){ 
 
   .plan-hero-banner{
     width: 327px;
@@ -3762,7 +3787,7 @@ opacity: 0.8;
   }
 
   .step-plan{
-    width: 375px;
+    width: 372px;
     height: 1028px;
     margin:168px auto;
     background: #2C343E;
@@ -3774,6 +3799,11 @@ opacity: 0.8;
     -ms-filter: blur(1px) brightness(0.5);
     -o-filter: blur(1px) brightness(0.5);
     filter: blur(1px) brightness(0.5);
+  }
+
+  .step-plan-container{
+    width:370px;
+    left:0px;
   }
 
   .plan-line1{
@@ -3795,7 +3825,7 @@ opacity: 0.8;
   height:72px;
   position:absolute;
   top:-20px;
-  margin-left:51px;
+  margin-left:136px;
   font-family:'Fraunces', serif;
   font-style: normal;
   font-weight: 900;
@@ -3806,7 +3836,7 @@ opacity: 0.8;
 }
 
 .plan-step1-header{
-  margin-left:-60px;
+  margin-left:24px;
   width:327px;
   height:32px;
   margin-top:-34px;
@@ -3821,7 +3851,7 @@ opacity: 0.8;
 
 .plan-step1-desc{
   padding-top:52px;
-  margin-left:-60px;
+  margin-left:24px;
   width:327px;
   height:101px;
   font-family: 'Barlow', sans-serif;
@@ -3837,10 +3867,11 @@ opacity: 0.8;
   margin-top:97px;
 }
 
+
 span.plan-step02{
   width:90px;
   height:72px;
-  margin-left:-45px;
+  margin-left:40px;
   font-family:'Fraunces', serif;
   font-style: normal;
   font-weight: 900;
@@ -3852,7 +3883,7 @@ span.plan-step02{
 .plan-step2-header{
   height:32px;
   padding-top:38px;
-  margin-left:-145px;
+  margin-left:-65px;
   font-family: 'Fraunces', serif;
   font-style: normal;
   font-weight: 900;
@@ -3863,7 +3894,7 @@ span.plan-step02{
 
 .plan-step2-desc{
   padding-top:52px;
-  margin-left:-150px;
+  margin-left:-70px;
   width:327px;
   height:101px;
   font-family: 'Barlow', sans-serif;
@@ -3882,7 +3913,7 @@ span.plan-step02{
 span.plan-step03{
   width:90px;
   height:72px;
-  margin-left:-45px;
+  margin-left:40px;
   font-family:'Fraunces', serif;
   font-style: normal;
   font-weight: 900;
@@ -3895,18 +3926,19 @@ span.plan-step03{
   padding-top:38px;
   width:327px;
   height:32px;
-  margin-left:-120px;
+  margin-left:-70px;
   font-family: 'Fraunces', serif;
   font-style: normal;
   font-weight: 900;
   font-size: 28px;
+  text-align: center;
   line-height: 32px;
   color: #FEFCF7;
 }
 
 .plan-step3-desc{
   padding-top:52px;
-  margin-left:-150px;
+  margin-left:-70px;
   width:327px;
   height:101px;
   font-family: 'Barlow', sans-serif;
@@ -3927,6 +3959,10 @@ span.plan-ring2{
 
 span.plan-ring3{
   display:none;
+}
+
+.content-row{
+  width:370px;
 }
 
 .content-left{
@@ -4111,7 +4147,7 @@ span.plan-ring3{
   width:328px;
   height:10px;
   position:relative;
-  top:-80px;
+  top:-90px;
 }
 
 .bean-plan-header{
@@ -4162,7 +4198,7 @@ span.plan-ring3{
 .bean-card1-header{
   margin-top:24px;
   margin-left:28px;
-  width:163px;
+  width:300px;
   height:32px;
   font-family: 'Fraunces', serif;
   font-style: normal;
@@ -4266,6 +4302,7 @@ span.plan-ring3{
 .quantity-container{
   width:328px;
   height:10px;
+  margin-top:88px;
 }
 
 .quantity-container-addon{
@@ -4429,12 +4466,13 @@ span.plan-ring3{
 .grind-container{
   width:328px;
   height:10px;
+  margin-top:0px;
 }
 
 .grind-container-addon{
   width:328px;
   height:10px;
-  margin-top:-90px;
+  margin-top:-178px;
 }
 
 .grind-plan-header{
@@ -4598,7 +4636,7 @@ span.plan-ring3{
 .deliveries-container-addon{
   width:328px;
   height:10px;
-  margin-top:-90px;
+  margin-top:-178px;
 }
 
 .deliveries-plan-header{
@@ -4812,7 +4850,7 @@ span.green1{
 .modal-container{
   position:fixed;
   z-index: 1;
-  top:35px;
+  top:0px;
   left:0px;
   width: 327px;
   height: 597px;
@@ -4820,8 +4858,8 @@ span.green1{
 
 .modal{
   position:relative;
-  top:35px;
   left:24px;
+  top:35px;
   width: 327px;
   height: 597px;
   background: #FEFCF7;
@@ -4841,8 +4879,6 @@ span.green1{
 .modal-header{
   padding-top:28px;
   margin-left:24px;
-  width:235px;
-  height:32px;
   font-family: 'Fraunces', serif;
   font-style: normal;
   font-weight: 900;
@@ -4934,7 +4970,8 @@ footer.container{
 }
 
 .footer-navbar{
-  width:622px;
+  display: block;
+  width:327px;
   height:26px;
   position:absolute;
   top:47px;
